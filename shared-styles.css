@@ -3,6 +3,34 @@
     --anim-time: 5s;
 }
 
+.content {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.links {
+    display: grid;
+    column-gap: 20px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.link {
+    color: white;
+    font-size: 50px;
+    border-radius: 50px;
+    padding: 20px 50px;
+}
+
+.link.blue {
+    background: blue;
+}
+
+.link.red {
+    background: red;
+}
+
 .container {
     height: 100vh;
     display: grid;
