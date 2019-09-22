@@ -1,0 +1,28 @@
+:root {
+    --doraemon-size: 200px;
+    --anim-time: 5s;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.doraemon {
+    background-image: url(./doraemon.png);
+    height: var(--doraemon-size);
+    width: var(--doraemon-size);
+    background-size: var(--doraemon-size);
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 50px;
+    margin: 20px;
+    position: fixed;
+}
+
+.doraemon-animated {
+    animation: enter var(--anim-time) ease-in both;
+}
